@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+P {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.btn {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.logo {
+  float: left;
+}
+.navigation-links {
+  float: right;
+}
+.navigation-links ul li {
+  display: inline-block;
+  padding: 1em;
+  font-size: 1.5rem;
+}
+.navigation-links a{
+  text-decoration: none;
+  color:black;
+
+}
+.navigation-links a:hover{
+  color:blue
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.clearfix {
+  clear: both;
+}
+.hero {
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center/center;
+  height: 80vh;
+}
+.hero-content {
+  float: right;
+  width: 40%;
+  padding-right: 4em;
+  margin: 10em 0;
+}
+.btn-blue {
+  background-color: #496bf2;
+}
+.btn-green {
+  background-color: #2dd6c1;
+}
+.hero-content h1 {
+  color: #496bf2;
+  text-shadow: 1px 1px 4px grey;
+  font-size: 3rem;
+}
+.hero-content p {
+  margin: 2em 0;
+}
+.card {
+  float: left;
+  width: 30%;
+  box-shadow: 0px 0px 10px lightgrey;
+  border-radius: 5px;
+  padding: 2em;
+  height: 400px;
+  text-align: center;
+}
+.card:nth-child(2) {
+  margin: 0 5%;
+}
+.features {
+  margin: 4em 0;
+}
+h3 {
+  color: #496bf2;
+  margin-bottom: 0 6em;
+  font-size: 2rem;
+}
+.about {
+  margin-top: 6em;
+}
+.about-image {
+  float: left;
+  width: 50%;
+}
+.about-image img {
+  width: 100%;
+}
+.about-content {
+  width: 50%;
+  float: right;
+  padding-left: 2em;
+}
+h2 {
+  font-size: 3rem;
+  padding-bottom: 1em;
+}
+.green-heading {
+  color: #2dd6c1;
+}
+.blue-heading {
+  color: #496bf2;
+  text-shadow: 1px 1px 4px grey;
+}
+.happy {
+  text-align: center;
+}
+.profile-content {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  display: inline-block;
+}
+.circle-blue {
+  background-color: #496bf2;
+  margin-right: 2em;
+}
+.circle-green {
+  background-color: #2dd6c1;
+  margin-right: 2em;
+}
+.b-image{
+  background-image: url(../images/contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center/center;
+  height: 80vh;}
+  form{
+    width: 50%;
+    
+  }
+  input[type="text"], input[type="email"], textarea{
+    width:100%;
+    padding: 2em;
+    border-radius: 5px;
+    border:none;
+    margin: 1em;
+  }
+  .doctor form{
+    padding:3em;
+  }
+  .comment{
+    text-align: center;
+    margin-top: 2em;
+  }
+  ul li{
+    list-style: none;
+  }
+  .section-footer{
+    float:left;
+    width:25%
+  }
+  .rightquote{
+    float:right;
+  }
+  .leftquote{
+    float:left;
+  }
+  .net{
+    margin-right: 3em ;
+  }
+  .hearts{
+    color:red;
+  }
